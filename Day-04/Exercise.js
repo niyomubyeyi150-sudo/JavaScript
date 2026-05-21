@@ -30,5 +30,5 @@ if (getsFreeShipping) {
   console.log("Free shipping applied!");
 } else {
   console.log("free shipping not applied");
-}
+}   
 
