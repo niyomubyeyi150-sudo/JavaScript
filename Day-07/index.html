@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number</title>
+</head>
+<body>
+    <script>
+        alert("secretNumber" , +secretNumber)
+        const secretNumber= Math.floor(Math.random()*10)+1;
+console.log("The secret number are :" ,+ secretNumber);
+let userGuess = "Guess the number between 1 and 10:";
+userGuess = Number(userGuess);
+
+if (userGuess === secretNumber) {
+    console.log("Correct! You guessed it.");
+} else {
+    console.log(`Wrong! The number was ${secretNumber}.`);
+}
+while(userGuess !== secretNumber){
+    console.log("The continue guess a number between 1 and 10");
+    break;
+}
+console.log("You guess the number");
+    </script>
+    
+    
+</body>
+</html>
